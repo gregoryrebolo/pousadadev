@@ -1,0 +1,39 @@
+.rooms{
+    background-image: url('assets/img-fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 50px;
+
+}
+
+.room{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+       
+}
+
+.room img{
+    width: 30%;
+}
+
+.room ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.room li{
+    margin-right: 5px;
+}
+
+.solteiro{
+    margin-top: 60px;
+}
